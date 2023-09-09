@@ -1,1 +1,11 @@
 # uSUP logic level adapter
+
+Connecting a sensor with an I2C bus has never been easier thanks to the [uSup connector](https://blog.laskakit.cz/predstavujeme-univerzalni-konektor-pro-propojeni-modulu-a-cidel-%ce%bcsup/). The [uSup connector](https://blog.laskakit.cz/predstavujeme-univerzalni-konektor-pro-propojeni-modulu-a-cidel-%ce%bcsup/) has standard wiring on all modules and also includes a lock. So there is no need to worry about the module or the control board. We have a lot of control boards. Some with [ESP8266](https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/)https://www.laskakit.cz/laskakit-airboard-8266-deska-pro-mereni-kvality-vzduchu/, some with [ESP32](https://www.laskakit.cz/laskakit-esp32-devkit/?variantId=11481)https://www.laskakit.cz/laskakit-esp32-devkit/?variantId=11481, some with [ESP32-C3](https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10473)https://www.laskakit.cz/laskakit-meteo-mini/?variantId=10473 or ESP32-S2.
+
+Although the uSup is compatible with other popular connectors such as SparkFun Qwiic and Adafruit STEMMA, it is sometimes necessary to connect sensors to boards other than those with the uSup connector. If the board power supply is 3.3V, just use the ushup connector on the [female dupont](https://www.laskakit.cz/--sup--stemma-qt--qwiic-jst-sh-4-pin-kabel-dupont-samice/). If the control board is powered at 5V and has 5V logic on I2C, a logic level converter or also a level shifter is needed.
+
+This is what this miniature uŠup logic level adapter board is for. On one side, for example, [Arduino Uno](https://www.laskakit.cz/arduino-uno-rev3--original/) or [Arduino Mega](https://www.laskakit.cz/arduino-mega-adk-2560-r3--klon/) etc. and on the other side one of our sensors.
+
+Which one? [For example BME688 - Pressure, temperature, humidity and air quality sensor](https://www.laskakit.cz/laskakit-bme688-senzor-tlaku--teploty--vlhkosti-a-kvalitu-vzduchu/), [SGP41 - VOC and Nox air quality sensor](https://www.laskakit.cz/laskakit-sgp41-voc-a-nox-senzor-kvality-ovzdusi/) and you can [display all that data on a 1.3" OLED display](https://www.laskakit.cz/laskakit-oled-displej-128x64-1-3--i2c/?variantId=11903).
+
+## The module is available on https://www.laskakit.cz/laskakit-prevodnik-logickych-urovni-i2c-5v-na-sup-3-3v/
