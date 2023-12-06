@@ -1,18 +1,9 @@
-![uŠup_4x a hřebínkem](https://github.com/LaskaKit/uSup/blob/main/uSUP_4x/img/5.jpg)
+![SPI uŠup_4x a hřebínkem](https://github.com/LaskaKit/uSup/blob/main/uSUP_SPI_4x/img/laskakit-sup-spi-4x-na-dip-adapter-1.jpg)
 
-Univerzální, jednoduché a bezpečné propojení nejrůznějších vývojových desek a čidel. To je μŠup. S tímhle modulem můžeš propojit 4 čidla nebo desky s μŠup 
-a také jedno čidlo skrze pinový hřebínek.
+# 4x SPI uŠup 
 
-Další moduly a vývojové kytky s μŠup jsou například [SCD41 Senzor CO2, teploty a vlhkosti vzduchu](https://www.laskakit.cz/laskakit-scd41-senzor-co2--teploty-a-vlhkosti-vzduchu/), 
-[SHT40 Senzor teploty a vlhkosti vzduchu](https://www.laskakit.cz/laskakit-sht40-senzor-teploty-a-vlhkosti-vzduchu/), [LaskaKit ESP32-LPKit](https://www.laskakit.cz/laskakit-esp32-lpkit-pcb-antenna-2/) nebo 
-[LaskaKit ESP-VINDRIKTNING ESP-32](https://www.laskakit.cz/laskakit-esp-vindriktning-esp-32-i2c/).
+Potřebuješ více senzorů nebo displejů s SPI rozhraním? Žádný problém - jednoduché a bezpečné zapojení díky SPI uŠup konektoru se zámkem a zároveň možností připojit až tři další SPI zařízení. 
 
-K propojení budeš potřebovat i [μŠup, STEMMA QT, Qwiic JST-SH 4-pin kabel - 10cm](https://www.laskakit.cz/--sup--stemma-qt--qwiic-jst-sh-4-pin-kabel-10cm/) nebo třeba [ μŠup, STEMMA QT, Qwiic JST-SH 4-pin kabel - dupont samice ](https://www.laskakit.cz/--sup--stemma-qt--qwiic-jst-sh-4-pin-kabel-dupont-samice/).
-Propojovacích kabelů máme samozřejmě více a najdeš je v sekci [Vodiče](https://www.laskakit.cz/vodice/).
+Na jedné straně zapojíš SPI uŠup například z naší LaskaKit ESP32-DEVkit-S3 do tohoto adaptéru, na straně druhé připojíš například displej či čidla. Ke každému čidlu musíš vést samostatný CS pin, ten totiž upozorňuje dané zařízení na to, že komunikace bude probíhat právě s ním.
 
-Specifikace:
-- hřebínek s roztečí 2.54mm
-- 4 μŠup konektory (JST-SH-4)
-- Rozměry: 15.3x18mm
-
-Adaptér najdeš na této adrese https://www.laskakit.cz/laskakit-sup-4x-na-dip-adapter/
+Modul je dostupný na https://www.laskakit.cz/laskakit-sup-spi-4x-na-dip-adapter/
